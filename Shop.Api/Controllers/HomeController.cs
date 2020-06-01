@@ -4,12 +4,12 @@ using Shop.Domain;
 namespace Shop.Api.Controllers
 {
     [ApiController]
-    [Route("")]
+    [Route("api")]
     public class HomeController : ControllerBase
     {
 
         [HttpGet]
-        [Route("")]
+        [Route("orders")]
         public Order Get()
         {
             var order = new Order(25);
