@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Shop.Domain;
 
-namespace Shop.Api.Controllers
+namespace Shop.Controllers
 {
     [ApiController]
     [Route("api")]
